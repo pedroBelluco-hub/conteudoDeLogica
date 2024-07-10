@@ -99,4 +99,36 @@ if (hungerLevel === 1) {
 
 */
 
-//Starting the FUNCTION subject.
+//Starting the FUNCTION subject. (NEVER use numbers on function names)
+insertBread()
+toasting()
+function insertBread(){
+   console.log("Preparing to insert the bread")
+}
+function toasting() {
+   console.log("Preparing toast")
+   console.log("The end")
+}
+//Call the function you created before the logic implemented.
+//RESPECT THE INDENTATION (spaces or tabs used always when you open a new scope)
+main()
+function main(){
+	getData()
+	checkValues()
+	sendToDataBase()
+}
+
+function getData(){
+  	console.log("Getting users data")
+	if(1 < 3) {
+    	console.log("Number found")
+    }
+}
+
+function checkValues(){
+  	console.log("Validating data")
+}
+
+function sendToDataBase(){
+  	console.log("Cadastrating data")
+}
